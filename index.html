@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- voici le lien de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- pour le lien des icones sur bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- pour le css  -->
+    <link rel="stylesheet" href="index.css">
+    <!-- pour le responsive  -->
+    <link rel="stylesheet" href="responsive.css">
+    <title>Index</title>
+</head>
+<body>
+  <!-- pour le barre de navigation -->
+    <nav class="flex-column flex-md-row justify-content-center justify-content-md-between align-items-center">
+        <div class="d-md-flex d-block">
+            <a href="#"><i><img src="projet-final/Assets/Images/group-2.svg" alt="" width="95px"></i> </a>
+             <a href="index.html"><h1 class="fs-11 h1">[Events]</h1> </a>
+        </div>
+        <div class="flex justify-content-md-center ">
+            <div class="flex nav-icone">
+                <a href="search.html"> <i class="bi bi-search fs-4"></i> </a> 
+                <a href="search.html"> <h1 class="fs-5 p-2 d-none d-md-block ">Search</h1> </a>
+            </div>
+            <div class="flex nav-icone">
+                <a href="about.html"><i class="bi bi-person fs-4"></i> </a>
+                <a href="about.html"><h1 class="fs-5 p-2 d-none d-md-block">About</h1></a>
+            </div>
+            <div class="flex nav-icone">
+              <a href="#"><i class="bi bi-wifi fs-4 d-inline-block" style="transform: rotate(45deg);"></i></a>
+              <a href="#"><h1 class="fs-5 p-2 d-none d-md-block ">Blog</h1> </a>
+            </div>
+            <div class="flex nav-icone">
+              <a href="#"> <i class="bi bi-list fs-4"></i></a>
+              <a href="#"><h1 class="fs-5 p-2 d-none d-md-block" >More</h1> </a>
+            </div>
+        </div>
+    </nav>
+    <!-- le premier partie de site (le barre de recherche)  -->
+    <header>
+        <h1 class="text-uppercase h1 fs-3 ">[Events]... your gateway to connect with events around your area</h1>
+        <div class="search  w-auto ">
+          <p class="text-uppercase fw-bold">search events nearby</p>
+          <div class="d-md-flex">
+            <input class="w-100" type="text" placeholder="insert your location here">
+            <a href="search.html"><button class="text-uppercase btn btn-danger mobile-button fw-bold ">
+                Search
+            </button></a>
+          </div>
+        </div> <br><br>
+        <button class=" btn btn-light fs-6 fw-bold mobile2-button">how it works</button>      
+    </header>
+    <!-- le deuxieme partie de site  -->
+    <section>
+      <p class=" fw-bold pt-40 fs-4 " style="color: #d35649;">
+        [Events] works in four simple steps.
+      </p>
+      <div class="row">
+        <div class="col-6">
+          <img src="projet-final/Assets/Icones/locate_icon.svg" alt="" width="50px">
+          <p class="fw-bold">1-Locate:</p>
+          <h6>
+            It's simple, on [Events] homepage, enter the name of the location
+            you want to spend some good quality time with people and click on
+            search.
+          </h6>
+        </div>
+        <div class="col-6">
+          <img src="projet-final/Assets/Icones/confirm_icon.svg" alt="" width="50px">
+          <p class="fw-bold">2-Confirm or Create:</p>
+          <h6>
+            Go to check the events nearby the location you searched for and
+            apply for any [Events] available. Every [gathering] has a subject,
+            that you can search for too! If no [Events] are available on the
+            location you selected, you can create and share your event.
+          </h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <img src="projet-final/Assets/Icones/go_icon.svg" alt="" width="50px">
+          <p class="fw-bold">3-Go!</p>
+          <h6>
+            Select the [Events], wait for the scheduled day and go! Be
+            prepared to meet new people, create new connections and have a
+            great time!
+          </h6>
+        </div>
+        <div class="col-6">
+          <img src="projet-final/Assets/Icones/haveagoodtime_icon.svg" alt="" width="50px">
+          <p class="fw-bold">4-Have a good time:</p>
+          <h6>
+            Once you are at the [Events] location, look for the host, enjoy
+            and have fun!
+          </h6>
+        </div>  
+      </div>
+    </section>
+    <!-- pour le troisieme partie de site  -->
+    <div class="row trois">
+      <div class="col-9">
+        <h1 class="fw-bold fs-4 mb-5"> [Events] near you</h1>
+        <h6 class="mb-3">
+          Every month a new you might find [Events] near you and enjoy the
+          company with people whom you can share mutual interests
+        </h6>
+        <a href="search.html"><button class="btn btn-light rouge fw-bold fs-6">
+          Find a [Events] 
+        </button></a>
+      </div>
+      <div class="col-3 image">
+        <img style="border-radius: 75px;" src="projet-final/Assets/Images/group-2.jpg" alt="" width="150px" height="150px">
+      </div>
+    </div>
+    <!-- pour le contenu sur responsive  -->
+    <div class="d-md-none ">
+      <div class="picture1">
+        <img class="radius" src="projet-final/Assets/Images/group-2.jpg" alt="" width="100%">
+        <h6 class="blanc fw-bold fs-6 w-70">  You can create [Events] events around your area and share them
+          with people you know and with whoever wants to connect
+          <br>[Events] connect you
+          <br>Learn more about [Events]
+        </h6>
+      </div>
+    </div>
+    <div class="d-md-none ">
+      <div class="picture2">
+        <img class="radius" src="projet-final/Assets/Images/group-3.jpg" alt="" width="100%">
+        <h6 class="blanc fw-bold fs-6 w-70"> Every month a new you might find [Events] near you and enjoy the
+             company with people whom you can share mutual interests
+        </h6>
+        
+      </div>
+    </div>
+    <div class="d-md-none ">
+      <div class="picture3">
+        <img class="radius" src="projet-final/Assets/Images/group-4.jpg" alt="" width="100%">
+        <h6 class="blanc fw-bold fs-6 w-70"> Every month a new you might find [Events] near you and enjoy the
+             company with people whom you can share mutual interests
+        </h6>
+      </div>
+    </div>
+    <!-- pour le quatrieme partie de site  -->
+    <div class="row quatre">
+      <div class="col-9">
+        <h1 class="fw-bold fs-4 mb-5"> [Events] connecting you</h1>
+        <h6 class="mb-3">
+          You can create [Events] events around your area and share them
+          with people you know and with whoever wants to connect
+        </h6>
+        <a href="search.html"><button class="btn btn-light gris fw-bold fs-6">
+          Learn more about [Events] 
+        </button></a>
+      </div>
+      <div class="col-3 image">
+        <img style="border-radius: 75px;" src="projet-final/Assets/Images/group-3.jpg" alt="" width="150px" height="150px">
+      </div>
+    </div>
+    <!-- pour le cinquieme partie de site  -->
+    <div class="row cinq">
+      <div class="col-9">
+        <h1 class="fw-bold fs-4 mb-5 "> [Events] spreding Love</h1>
+        <h6 class="mb-3">
+          [Events] let you meet new people, share interests and spreading
+          love
+        </h6>
+      </div>
+      <div class="col-3 image">
+        <img style="border-radius: 75px;" src="projet-final/Assets/Images/group-4.jpg" alt="" width="150px" height="150px">
+      </div>
+    </div>
+    <div class="sous-footer">
+      <div >
+        <div class="d-flex barre">
+          <div>
+            <ul class="d-flex tables">
+              <a href="index.html"><li>
+                HOME
+              </li></a>
+              <a href="search.html"><li>
+                SEARCH
+              </li></a>
+              <a href="about.html"><li>
+                ABOUTS US 
+              </li></a>
+              <a href=index.html"><li>
+                ADVERTISE
+              </li></a>
+            </ul>
+          </div>
+          <div class="bory">
+            <svg id="bory" width="70pt" height="70pt" fill="#fff" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+              <path d="m350 110.25c-73.5 0-133 59.5-133 133 0 71.75 122.5 194.25 127.75 199.5l7 5.25 7-5.25c5.25-5.25 127.75-126 127.75-199.5-3.5-71.75-63-133-136.5-133zm0 173.25c-21 0-38.5-17.5-38.5-38.5s17.5-38.5 38.5-38.5 38.5 17.5 38.5 38.5-17.5 38.5-38.5 38.5z"/>
+            </svg>
+          </div>
+          <div>
+            <ul class="d-flex tables">
+              <a href="index.html"><li>
+                FACEBOOK
+              </li></a>
+              <a href="index.html"><li>
+                TWITER
+              </li></a>
+              <a href="index.html"><li>
+                INSTAGRAM
+              </li></a>
+              <a href="index.html"><li>
+                BLOGS
+              </li></a>
+            </ul>
+          </div>
+        </div> <br><br><br>
+      </div>
+      <div class="row text-center align-items-center sous-footer">
+        <div class="col-4 text-center align-items-center " >
+          <h1 class="fs-4">Subscribe</h1>
+          <div class=" ">
+            <input type="text" placeholder="insert your e-mail here" class="email p-2 ">
+            <button class="btn btn-secondary text-uppercase fw-bold pt-2 pb-2">
+               send
+            </button>
+          </div>         
+        </div>
+        <div class="col-4 text-center">
+          <h1 class="fs-4">Contact</h1>
+          <h6>have a question?</h6>
+          <a href="mail to the objet?Ask Me Anything"><h6 class="rouge">contact@events.com</h6></a>
+        </div>
+        <div class="col-4 text-center">
+          <h1 class="fs-4">About</h1>
+          <h6>
+            [Events] is an online plataform that works to improve and increase social life connections, when this nightmane that we are curently living in is over 
+            <a href="#"><span class="rouge">
+              learn more
+            </span></a>
+          </h6>
+        </div>
+      </div>
+    </div>
+    <footer class="d-flex">
+      <div>
+        <a href="index.html">
+          <i class="bi bi-facebook p-3 icone"></i>
+        </a>
+        <a href="index.html">
+          <i class="bi bi-twitter p-3 icone"></i>
+        </a> 
+        <a href="index.html">
+          <i class="bi bi-instagram p-3 icone"></i>
+        </a> 
+        <a href="index.html"> 
+          <i class="bi bi-twitch p-3 icone"></i>
+        </a>
+        <a href="index.html">
+          <i class="bi bi-linkedin p-3 icone"></i>
+        </a>
+      </div>
+      <div>
+        <a href="index.html"> <p class="fs-6 align-items-center end ">
+          &copy;2020 [Events].Inc.All rights reserved 
+        </p> </a>
+      </div>
+    </footer>
+    
+</body>
+</html>

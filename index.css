@@ -1,0 +1,226 @@
+/* pour tout */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/* pour le body  */
+body{
+    overflow-x: hidden;
+}
+h1{
+    color: var(--light-gray);
+}
+/* pour le variable couleur */
+:root{
+    --primary-color:#d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+}
+/* pour le navigateur */
+ nav{
+     background-color: var(--primary-color);
+     justify-content: space-between;
+     display: flex;
+     align-items: center;
+     padding: 15px 8px 12px 8px;
+     color: var(--light-gray);
+    
+ }
+.flex{
+    display: flex;
+    align-items: center;
+}
+.nav-icone{
+    padding: 0 20px 0 20px ;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: var(--light-gray);
+}
+a :hover{
+    color: var(--primary-gray);
+}
+.h1{
+    text-shadow: 2px 2px black;
+}
+
+/* pour le deuxieme  */
+
+header{
+    background-image: url(projet-final/Assets/Images/group-1.jpg);
+    background-position: center;
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+.search {
+    background-color:rgba(255, 255, 255, 0.479);
+    max-width: 70%;
+    margin: auto; 
+    padding: 30px 20px 20px 10px; 
+}
+section {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    align-items: center;
+
+}
+.rouge {
+    color: var(--primary-color);
+}
+
+h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+/* pour la troisieme partie  */
+
+.trois {
+    background-color: var(--primary-color);
+    padding: 30px 40px 30px 40px;
+    color: var(--light-gray);
+}
+
+.image {
+    text-align: right;
+    align-items: center;
+    padding-top: 10px;   
+}
+/* pour le troisieme responsive  */
+.picture1{
+    background-color: var(--primary-gray);
+    padding: 20px;
+    position: relative;
+}
+.picture2{
+    background-color: var(--primary-color);
+    padding: 20px;
+    position: relative;
+}
+.picture3{
+    background-color: var(--primary-blue);
+    padding: 20px;
+    position: relative;
+}
+.blanc{
+    color: var(--light-gray);
+    text-shadow: 1px 1px #080808;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.picture {
+    position: relative;
+}
+.radius {
+    border-radius: 40px;
+}
+/* pour la quatrieme partie  */
+
+.quatre {
+    background-color: var(--primary-gray);
+    padding: 30px 40px 30px 40px;
+    color: var(--light-gray);
+}
+
+.gris{
+    color: var(--primary-gray);
+}
+
+/* pour la cinquieme partie  */
+
+.cinq {
+    background-color: var(--primary-blue);
+    padding: 30px 40px 30px 40px;
+    color: var(--light-gray);
+}
+/* pour le sous-footer  */
+
+.sous-footer{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 20px 20px 20px;
+    color: var(--light-gray);
+}
+.tables{
+    text-align: center;
+    justify-content: center;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    width: 100%;
+    margin: 0 auto;
+}
+.barre {
+    margin: 0 30px;
+    justify-content: center;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+ul li{
+    padding: 10px 15px ;
+}
+
+.bory{
+    border-radius: 35pt;
+    border: 2px solid #eee;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+    transform: translateY(-20px);
+}
+#bory {
+    transform: translateY(10px);  
+}
+
+
+.email{
+    background-color: #080808;
+    border: solid 1px #eee;
+    border-radius: 1px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.rond{
+    transform: translateY(8px);
+}
+
+/* pour le footer  */
+
+footer{
+    background-color: var(--gray-footer);
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.end{
+    color: var(--light-gray);
+    float: right;
+    padding-top: 8px;
+}
+.rouge:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+.icone:hover {
+    color: var(--primary-blue);
+}

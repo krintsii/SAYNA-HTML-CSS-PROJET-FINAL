@@ -1,0 +1,61 @@
+@media screen and (max-width:758px) {
+        /* pour tout */
+    * {
+        margin: 0;
+        padding: 0;
+        
+    }
+    /* pour le barre de navigation  */
+    nav{
+        text-align: center;
+        justify-content: center;
+        display: block;
+        margin: 0 auto;
+    }
+    nav div{
+        display: block;
+    }
+    nav div img {
+        align-items: center;
+        text-align: center;
+    }
+    .flex{
+        justify-content: center;
+    }
+    /* pour le header  */
+    header{
+        padding: 30px 20px 0 20px;
+    }
+
+    .mobile-button {
+        width: 100%;
+    }
+    .search{
+        padding: 30px;
+    }
+    .mobile2-button{
+        margin-top: 20px;
+    }
+    /* pour le deuxieme contenu  */
+    section {
+        display: none;
+    }
+    /* pour le troisieme partie de site   */
+    .trois{
+        display: none;
+    }
+    /* pour le quatrieme partie de site   */
+    .quatre{
+        display: none;
+    }
+    /* pour le cinquieme partie de site   */
+    .cinq{
+        display: none;
+    }
+    /* pour le sous-footer partie de site   */
+    .sous-footer{
+        display: none;
+    }
+
+
+}

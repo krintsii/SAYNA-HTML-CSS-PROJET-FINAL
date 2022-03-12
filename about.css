@@ -1,0 +1,240 @@
+/* pour tout */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/* pour le body  */
+body{
+    overflow-x: hidden;
+}
+
+h1{
+    color: var(--light-gray);
+}
+/* pour le variable couleur */
+:root{
+    --primary-color:#d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+}
+/* pour le navigateur */
+ nav{
+     background-color: var(--primary-color);
+     justify-content: space-between;
+     display: flex;
+     align-items: center;
+     padding: 15px 8px 12px 8px;
+     color: var(--light-gray);
+    
+ }
+.flex{
+    display: flex;
+    align-items: center;
+}
+.nav-icone{
+    padding: 0 20px 0 20px ;
+}
+.h1{
+    text-shadow: 2px 2px black;
+}
+a{
+    text-decoration: none;
+    color: var(--light-gray);
+}
+a :hover{
+    color: var(--primary-gray);
+}
+/* pour le contenu */
+header{
+    width: 96%;
+    float: right;
+    box-shadow: -1px -1px 10px -1px #444;
+    text-align: center;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.titre{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.rouge {
+    color: var(--primary-color);
+}
+.bleu{
+    color: var(--primary-blue);
+}
+.caser {
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+.case p {
+    margin-bottom: 0;
+}
+
+.case {
+    box-shadow: -1px -1px 10px -1px #444;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px 50px;
+    display: flex;
+   
+}
+.petit-bleu{
+    background-color: var(--primary-blue);
+    text-align: center;
+    width: 80px;
+    padding: 10px;
+    margin: 0 50px;
+    float: right;
+    color: var(--light-gray);
+}
+.petit-bleu:hover{
+    background-color: #03213a;
+    cursor: pointer;
+}
+.petit-bleu p {
+    margin-bottom: 0%;
+    font-size: 14px;   
+}
+.info {
+    justify-content: center;
+}
+
+.info1{
+    align-items: center;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    justify-content: center;
+    font-weight: 600;
+}
+.info1 p{
+    margin-bottom: 0;
+}
+/* pour le deuxieme contenue  */
+section{
+    box-shadow: -1px -1px 20px -1px #444; 
+    padding: 40px;
+  
+}
+.btn:hover{
+    text-decoration: underline;
+    
+}
+.btn p:hover{
+    color: black;
+}
+
+.more{
+    text-align: justify;
+    letter-spacing: 20px;
+    padding: 0 10px;
+
+}
+.map {
+    justify-content: center;
+    align-items: center;
+}
+
+.map p {
+    margin-bottom: 1;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* pour le troisieme  */
+
+.sous-footer{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 20px 20px 20px;
+    color: var(--light-gray);
+}
+.tables{
+    text-align: center;
+    justify-content: center;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    width: 100%;
+    margin: 0 auto;
+}
+.barre {
+    margin: 0 30px;
+    justify-content: center;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+ul li{
+    padding: 10px 15px ;
+}
+
+.bory{
+    border-radius: 35pt;
+    border: 2px solid #eee;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+    transform: translateY(-20px);
+}
+#bory {
+    transform: translateY(10px);  
+}
+
+
+.email{
+    background-color: #080808;
+    border: solid 1px #eee;
+    border-radius: 1px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.rond{
+    transform: translateY(8px);
+}
+
+/* pour le footer  */
+
+footer{
+    background-color: var(--gray-footer);
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.end{
+    color: var(--light-gray);
+    float: right;
+    padding-top: 8px;
+}
+.rouge:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+.icone:hover {
+    color: var(--primary-blue);
+}
+button:hover{
+    text-decoration: none !important;
+}
+

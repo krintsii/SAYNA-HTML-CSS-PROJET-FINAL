@@ -1,0 +1,40 @@
+@media screen and (max-width:758px) {
+        /* pour tout */
+    * {
+        margin: 0;
+        padding: 0;
+        
+    }
+    /* pour le barre de navigation  */
+    nav{
+        text-align: center;
+        justify-content: center;
+        display: block;
+        margin: 0 auto;
+    }
+    nav div{
+        display: block;
+    }
+    nav div img {
+        align-items: center;
+        text-align: center;
+    }
+    .flex{
+        justify-content: center;
+    }
+    /* <!-- pour le contenu --> */
+    section{
+        padding-top: 40px;
+    }
+    /* pour le contenu  */
+    .col{
+        display: inline-block;
+    }
+    .font{
+        margin: 40px auto;
+    }
+    /* pour le sous-footer  */
+    .sous-footer{
+        display: none;
+    }
+}
